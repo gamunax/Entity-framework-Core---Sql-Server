@@ -1,12 +1,20 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace LeerData
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello JP!");
-        }
+      using (var db = new AppVentaCursosContext())
+      {
+          var cursos = db.Curso.AsNoTracking();
+          foreach(Curso curso in cursos) {
+              Console.WriteLine(curso.Titulo);
+          }
+      }
     }
+  }
 }

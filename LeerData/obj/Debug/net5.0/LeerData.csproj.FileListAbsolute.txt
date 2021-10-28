@@ -56,7 +56,6 @@ E:\JANPIERRE\Desarrollo_web\.net\NetCore\LeerData\obj\Debug\net5.0\LeerData.Gene
 E:\JANPIERRE\Desarrollo_web\.net\NetCore\LeerData\obj\Debug\net5.0\LeerData.AssemblyInfoInputs.cache
 E:\JANPIERRE\Desarrollo_web\.net\NetCore\LeerData\obj\Debug\net5.0\LeerData.AssemblyInfo.cs
 E:\JANPIERRE\Desarrollo_web\.net\NetCore\LeerData\obj\Debug\net5.0\LeerData.csproj.CoreCompileInputs.cache
-E:\JANPIERRE\Desarrollo_web\.net\NetCore\LeerData\obj\Debug\net5.0\LeerData.csproj.CopyComplete
 E:\JANPIERRE\Desarrollo_web\.net\NetCore\LeerData\obj\Debug\net5.0\LeerData.dll
 E:\JANPIERRE\Desarrollo_web\.net\NetCore\LeerData\obj\Debug\net5.0\ref\LeerData.dll
 E:\JANPIERRE\Desarrollo_web\.net\NetCore\LeerData\obj\Debug\net5.0\LeerData.pdb
