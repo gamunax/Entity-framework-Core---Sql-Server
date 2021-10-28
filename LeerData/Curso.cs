@@ -7,5 +7,11 @@ namespace LeerData
     public string Descripcion { get; set; }
 
     public System.DateTime FechaPublicacion { get; set; }
+
+    public byte[] FotoPortada { get; set; }
+
+    public Precio PrecioPromocion { get; set; }
+    public ICollection<Comentario> ComentarioLista { get; set; }
+
   }
 }

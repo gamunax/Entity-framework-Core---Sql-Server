@@ -10,10 +10,16 @@ namespace LeerData
     {
       using (var db = new AppVentaCursosContext())
       {
-          var cursos = db.Curso.AsNoTracking();
-          foreach(Curso curso in cursos) {
-              Console.WriteLine(curso.Titulo);
-          }
+        var cursos = db.Curso.Include(precio => precio.PrecioPromocion).AsNoTracking();
+        foreach (Curso curso in cursos)
+        {
+          Console.WriteLine(curso.Titulo + "-----" + curso.PrecioPromocion.PrecioActual);
+        }
+
+        //   var cursos = db.Curso.AsNoTracking();
+        //   foreach(Curso curso in cursos) {
+        //       Console.WriteLine(curso.Titulo);
+        //   }
       }
     }
   }
